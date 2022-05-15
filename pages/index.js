@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div style={{minHeight:'100vh',position:'relative'}}>
       <Image src="/home-bg.jpg" layout="fill" objectFit='cover' style={{opacity:0.1,filter:'grayscale(100%)'}} />
       <Head>
         <title>Hometown Renovations | Windham, New Hampshire</title>
