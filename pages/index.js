@@ -5,14 +5,14 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <Image src="/home-bg.jpg" layout="fill" style={{opacity:0.1,filter:'grayscale(100%)'}} />
+      <Image src="/home-bg.jpg" layout="fill" objectFit='cover' style={{opacity:0.1,filter:'grayscale(100%)'}} />
       <Head>
         <title>Hometown Renovations | Windham, New Hampshire</title>
       </Head>
 
-      <main style={{fontFamily:"'Bebas Neue', cursive", color:'#333',position:'relative'}}>
-        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',minHeight:'100vh'}}>
-          <h1 style={{fontSize:'4rem',lineHeight:'2rem',borderBottom:'1px solid #ccc',paddingBottom:'3rem',marginBottom:'1rem'}}>
+      <main style={{fontFamily:"'Bebas Neue', cursive", color:'#333',position:'relative',padding:'2rem'}}>
+        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center',minHeight:'100vh'}}>
+          <h1 style={{fontSize:'4rem',lineHeight:'4rem',borderBottom:'1px solid #ccc',paddingBottom:'3rem',marginBottom:'1rem'}}>
             Hometown Renovations
           </h1>
           <div style={{textAlign:'center'}}>
